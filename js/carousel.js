@@ -22,7 +22,7 @@ class Carousel {
 
             Carousel._interval = setInterval(() => {
                 Carousel.Next();
-            }, 2000);
+            }, 5000);
         } else {
             throw "O método Start precisa de um Array válido.";
         }
