@@ -32,9 +32,20 @@ main div {
 }
 
 .forms {
-    display: block;
+    display: flex;
     text-align: center;
+    justify-content: center;
+    align-items : center;
+
 }
+
+    .forms p{
+        width: 300px;
+        text-align: left;
+        margin: 8px;
+        
+    }
+
 
 h2 {
     text-align: left;
@@ -43,10 +54,11 @@ h2 {
 
 
 button {
+    display: block;
     width: 200px;
     height: 40px;
-    margin-right: 8px;
-    float: right;
+    margin: 20px auto 0;
+    float: none;
 }
 
 .titulo {
